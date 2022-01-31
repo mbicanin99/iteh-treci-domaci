@@ -40,3 +40,35 @@ code {
 #lbl_username {
   font-size: 20px;
 }
+
+.form-field {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#kontakt_forma {
+  margin-top: 30px;
+}
+
+#lastname_field {
+  margin-right: 28px;
+}
+
+#email_field {
+  margin-right: -10px;
+}
+
+#phone_field {
+  margin-right: 70px;
+}
+
+#message_field {
+  margin-right: 15px;
+  width: 140px;
+}
+
+#btn_subit_form {
+  width: 120px;
+  margin-top: 10px;
+  font-size: 20px;
+}
