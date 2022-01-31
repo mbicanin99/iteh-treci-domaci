@@ -1,3 +1,4 @@
+import Login from './Login'
 
 function Pocetna() {
 
@@ -6,12 +7,14 @@ function Pocetna() {
     function login(username, password) {
         if (username === user.username && password === user.password)
             alert('Logged in succesfully!')
+        else
+            alert('Please try again!')
     }
 
     return (
         <div>
-            <h4>Login page</h4>
-            <Login user={user} login={login()} />
+            <h2 className='login_page'>Login page</h2>
+            <Login user={user} login={login} />
         </div >
     );
 }
