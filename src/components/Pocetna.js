@@ -11,10 +11,12 @@ function Pocetna() {
             alert('Please try again!')
     }
 
+    const tekst = 'Login page'
+
+
     return (
         <div>
-            <h2 className='login_page'>Login page</h2>
-            <Login user={user} login={login} />
+            <Login tekst={tekst} login={login} />
         </div >
     );
 }

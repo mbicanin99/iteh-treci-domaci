@@ -16,6 +16,7 @@ function Login(props) {
     return (
         <div>
             <div className="login-form">
+                <h1>{props.tekst}</h1>
                 <div className="login-field">
                     <label for='username_field' id='lbl_username'>Username: </label>
                     <input type={'text'} id='username_field' value={username} onChange={handleUsername}></input>
